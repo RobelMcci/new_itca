@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  background-color: transparent;
+}
+
+.text-home{
+  color: rgb(235, 176, 57);
+  font-size: 40pt;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 10pt;
+}
+
+.home-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-content .paragraph-home{
+  color: black;
+  z-index: 5;
+  width: 100%;
+  text-align: center;
+  font-size: 16pt;
+  line-height: 20pt;
+  padding-bottom: 20px;
+}
+
+.contact-section-home{
+  z-index: 3;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 5%;
+  top: 40%;
+  z-index: 6;
+}
+
+.fa-brands, .fa-solid{
+  color: rgb(235, 176, 57);
+  font-size: 20pt;
+  padding: 10px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.home-service-container{
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  padding: 50px 0;
+}
+
+.home-service-container .home-service-text{
+  font-size: 25pt;
+  font-weight: 300;
+  color: rgb(235, 176, 57);
+  text-align: left;
+  padding-top: 15%;
+  padding-left: 5%;
+  width: 45%;
+}
+
+.home-service-container .home-service-text p{
+  color: black;
+}
+
+.home-service-container .home-service-cards h3{
+  font-size: 20pt;
+  font-weight: 600;
+  color: black;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+
+}
+
+.home-service-container .home-service-cards p{
+  font-size: 14pt;
+  font-weight: 300;
+  color: black;
+  line-height: 18pt;
+}
+
+.home-tech{
+  margin-top: 20%;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 50px 0;
+  gap: 50px;
+  color: blanchedalmond;
+  background-color: black;
+  align-items: center;
+}
+
+.home-tech .home-tech-gallery{
+  width: 60%;
+  overflow: hidden;
+  height: 300px;
+  color: white;
+}
+
+.home-tech .home-tech-text{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 5%;
+  font-size: 20pt;
+  font-weight: 600;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  padding-left: 5%;
+}
+
+.home-tech .home-tech-text p{
+  font-size: 14pt;
+  font-weight: 300;
+  color: white;
+  line-height: 25pt;
+  margin-top: 15px;
+}
